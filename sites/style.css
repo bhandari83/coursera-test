@@ -1,0 +1,39 @@
+<style>
+
+#background {
+  
+  background-color: lightgrey;
+  opacity: .7;
+}
+
+  /* all h3 elements */
+h3 {
+  color: #9b111e;
+  text-align: center;
+}
+
+/* use of decendent selector */
+section li { 
+
+  color: green;
+}
+/* all with class="highlight" */
+.highlight {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #9b111e;
+  opacity: 1;
+}
+
+p {
+  color: green ;
+  font-size: 20px;
+  }
+
+h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+}
+</style>
