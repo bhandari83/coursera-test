@@ -2,7 +2,7 @@
 
 #background {
   
-  background-color: lightgrey;
+  background-color: blue;
   opacity: .7;
 }
 
@@ -14,11 +14,12 @@ h3 {
 
 /* use of decendent selector */
 section li { 
-
-  color: green;
+  list-style: none;
+  
 }
 /* all with class="highlight" */
 .highlight {
+  text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -33,7 +34,44 @@ p {
 
 h1 {
   color: black;
-  font-size: 36px;
-  text-align: center;
+  font-size: 36px; 
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  background-color: green;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {
+  background-color: #9b111e;
+  color: purple;
+} text-align: center;
+}
+
+
+
+/*using pseudo selector for lists*/
+
+
+a:link, a:visited {
+  text-decoration: none;
+  background-color: green;
+  border: 1px solid blue;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+a:hover, a:active {
+  background-color: red;
+  color: purple;
+}
+
 </style>
